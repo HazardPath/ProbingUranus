@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbingUranus", "ProbingUranus\ProbingUranus.csproj", "{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D87E3363-3FE6-421F-BA51-617203D900DF} = {D87E3363-3FE6-421F-BA51-617203D900DF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library2D", "..\Library2D\Library2D\Library2D.csproj", "{D87E3363-3FE6-421F-BA51-617203D900DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Debug|x86.Build.0 = Debug|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{E443A8EA-8EE0-4D31-9E41-DEE83CF95C6C}.Release|x86.Build.0 = Release|Any CPU
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Debug|x86.ActiveCfg = Debug|x86
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Debug|x86.Build.0 = Debug|x86
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Release|Any CPU.ActiveCfg = Release|x86
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Release|x86.ActiveCfg = Release|x86
+		{D87E3363-3FE6-421F-BA51-617203D900DF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
